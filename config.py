@@ -19,7 +19,7 @@ BOT_USERNAME = getenv("BOT_USERNAME" , "CuteshizuBot")
 BOT_NAME = getenv("BOT_NAME" , "Shizu")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME" , "Cuteshizu")
-EVALOP = list(map(int, getenv("EVALOP","6592410058").split()))
+EVALOP = list(map(int, getenv("EVALOP","5569528945").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
@@ -121,10 +121,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/00ea7942b80e2863ee642.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/970583ae958fe46c29bb2.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/00360393a15daf7fc4e9d.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/970583ae958fe46c29bb2.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/78ac6fc48e240895e5ec8.jpg"
 STATS_IMG_URL = "https://graph.org/file/6abe3a913bf645b5b89ce.jpg"
